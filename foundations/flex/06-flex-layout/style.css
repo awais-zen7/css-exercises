@@ -24,3 +24,79 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+.header{
+  display:flex;
+  width:205vh;
+}
+
+.header .left-links{
+  display:flex;
+  justify-content:flex-start;
+  width:230vh;
+  gap:20px;
+}
+
+.header .right-links{
+  display:flex;
+  justify-content:flex-end;
+  width:230vh;
+  gap:20px;
+}
+
+a,a:visited {
+  text-decoration:none;
+  color:gray;
+}
+
+ul{
+  list-style-type:none;
+}
+
+.footer{
+  display:flex;
+  width:205vh;
+  background-color:#eeeeee;
+  color:gray;
+}
+
+.footer .left-links{
+  display:flex;
+  justify-content:flex-start;
+  width:230vh;
+  gap:20px;
+}
+
+.footer .right-links{
+  display:flex;
+  justify-content:flex-end;
+  width:230vh;
+  gap:20px;
+  color:gray;
+}
+
+.content{
+  height:83vh;
+}
+
+.ct{
+  display:flex;
+  justify-content:center;
+}
+
+.buttons{
+  display:flex;
+  justify-content:center;
+  padding:20px;
+  gap:10px;
+}
+
+.input{
+  display:flex;
+  justify-content:center;
+}
+
+button{
+  padding:10px;
+}
+
